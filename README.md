@@ -1,2 +1,2 @@
 # NVBaseSingleton
-Base singleton for easy implementation
+Base singleton for simple implementation
