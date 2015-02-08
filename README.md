@@ -1,5 +1,5 @@
 # NVBaseSingleton
-Base singleton for simple implementation
+Base singleton with simple implementation
 
 **usage**
 
