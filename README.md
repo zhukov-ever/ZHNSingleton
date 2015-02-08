@@ -1,5 +1,6 @@
 # NVBaseSingleton
-Base singleton with simple implementation
+Singleton with simple implementation. 
+Work with numerous child classes.
 
 **usage**
 
