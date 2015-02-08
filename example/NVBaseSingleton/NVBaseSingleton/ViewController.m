@@ -7,21 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "ChildSingleton.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *labelForAwesomeString;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)awesomeHandler:(id)sender
+{
+    self.labelForAwesomeString.text = [ChildSingleton shared].stringWithAwesomeString;
 }
 
 @end

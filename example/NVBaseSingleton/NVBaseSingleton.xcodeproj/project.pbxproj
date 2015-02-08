@@ -14,6 +14,8 @@
 		CD14BCEE1A87A0B2005E2A59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD14BCED1A87A0B2005E2A59 /* Images.xcassets */; };
 		CD14BCF11A87A0B2005E2A59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD14BCEF1A87A0B2005E2A59 /* LaunchScreen.xib */; };
 		CD14BCFD1A87A0B2005E2A59 /* NVBaseSingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD14BCFC1A87A0B2005E2A59 /* NVBaseSingletonTests.m */; };
+		CD14BD091A87A10D005E2A59 /* NVBaseSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD14BD081A87A10D005E2A59 /* NVBaseSingleton.m */; };
+		CD14BD0D1A87A15E005E2A59 /* ChildSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD14BD0C1A87A15E005E2A59 /* ChildSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		CD14BCF61A87A0B2005E2A59 /* NVBaseSingletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVBaseSingletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD14BCFB1A87A0B2005E2A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD14BCFC1A87A0B2005E2A59 /* NVBaseSingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVBaseSingletonTests.m; sourceTree = "<group>"; };
+		CD14BD071A87A10D005E2A59 /* NVBaseSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVBaseSingleton.h; sourceTree = "<group>"; };
+		CD14BD081A87A10D005E2A59 /* NVBaseSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVBaseSingleton.m; sourceTree = "<group>"; };
+		CD14BD0B1A87A15E005E2A59 /* ChildSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildSingleton.h; sourceTree = "<group>"; };
+		CD14BD0C1A87A15E005E2A59 /* ChildSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +87,10 @@
 		CD14BCDF1A87A0B2005E2A59 /* NVBaseSingleton */ = {
 			isa = PBXGroup;
 			children = (
-				CD14BCE41A87A0B2005E2A59 /* AppDelegate.h */,
-				CD14BCE51A87A0B2005E2A59 /* AppDelegate.m */,
-				CD14BCE71A87A0B2005E2A59 /* ViewController.h */,
-				CD14BCE81A87A0B2005E2A59 /* ViewController.m */,
-				CD14BCEA1A87A0B2005E2A59 /* Main.storyboard */,
-				CD14BCED1A87A0B2005E2A59 /* Images.xcassets */,
-				CD14BCEF1A87A0B2005E2A59 /* LaunchScreen.xib */,
+				CD14BD101A87A59B005E2A59 /* Resources */,
+				CD14BD111A87A5BF005E2A59 /* Libs */,
+				CD14BD0F1A87A57A005E2A59 /* Data */,
+				CD14BD0E1A87A560005E2A59 /* View */,
 				CD14BCE01A87A0B2005E2A59 /* Supporting Files */,
 			);
 			path = NVBaseSingleton;
@@ -96,6 +99,8 @@
 		CD14BCE01A87A0B2005E2A59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD14BCE41A87A0B2005E2A59 /* AppDelegate.h */,
+				CD14BCE51A87A0B2005E2A59 /* AppDelegate.m */,
 				CD14BCE11A87A0B2005E2A59 /* Info.plist */,
 				CD14BCE21A87A0B2005E2A59 /* main.m */,
 			);
@@ -117,6 +122,60 @@
 				CD14BCFB1A87A0B2005E2A59 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD14BD061A87A10D005E2A59 /* NVBaseSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				CD14BD071A87A10D005E2A59 /* NVBaseSingleton.h */,
+				CD14BD081A87A10D005E2A59 /* NVBaseSingleton.m */,
+			);
+			name = NVBaseSingleton;
+			path = ../../../NVBaseSingleton;
+			sourceTree = "<group>";
+		};
+		CD14BD0A1A87A125005E2A59 /* ChildSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				CD14BD0B1A87A15E005E2A59 /* ChildSingleton.h */,
+				CD14BD0C1A87A15E005E2A59 /* ChildSingleton.m */,
+			);
+			name = ChildSingleton;
+			sourceTree = "<group>";
+		};
+		CD14BD0E1A87A560005E2A59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD14BCEA1A87A0B2005E2A59 /* Main.storyboard */,
+				CD14BCE71A87A0B2005E2A59 /* ViewController.h */,
+				CD14BCE81A87A0B2005E2A59 /* ViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CD14BD0F1A87A57A005E2A59 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CD14BD0A1A87A125005E2A59 /* ChildSingleton */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		CD14BD101A87A59B005E2A59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD14BCED1A87A0B2005E2A59 /* Images.xcassets */,
+				CD14BCEF1A87A0B2005E2A59 /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CD14BD111A87A5BF005E2A59 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				CD14BD061A87A10D005E2A59 /* NVBaseSingleton */,
+			);
+			name = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD14BCE91A87A0B2005E2A59 /* ViewController.m in Sources */,
+				CD14BD0D1A87A15E005E2A59 /* ChildSingleton.m in Sources */,
 				CD14BCE61A87A0B2005E2A59 /* AppDelegate.m in Sources */,
+				CD14BD091A87A10D005E2A59 /* NVBaseSingleton.m in Sources */,
 				CD14BCE31A87A0B2005E2A59 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
