@@ -14,8 +14,8 @@
 		CD14BCEE1A87A0B2005E2A59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD14BCED1A87A0B2005E2A59 /* Images.xcassets */; };
 		CD14BCF11A87A0B2005E2A59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD14BCEF1A87A0B2005E2A59 /* LaunchScreen.xib */; };
 		CD14BCFD1A87A0B2005E2A59 /* NVBaseSingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD14BCFC1A87A0B2005E2A59 /* NVBaseSingletonTests.m */; };
-		CD14BD091A87A10D005E2A59 /* NVBaseSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD14BD081A87A10D005E2A59 /* NVBaseSingleton.m */; };
 		CD14BD0D1A87A15E005E2A59 /* ChildSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD14BD0C1A87A15E005E2A59 /* ChildSingleton.m */; };
+		CD14BD191A87A73A005E2A59 /* NVBaseSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD14BD181A87A73A005E2A59 /* NVBaseSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,10 @@
 		CD14BCF61A87A0B2005E2A59 /* NVBaseSingletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVBaseSingletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD14BCFB1A87A0B2005E2A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD14BCFC1A87A0B2005E2A59 /* NVBaseSingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVBaseSingletonTests.m; sourceTree = "<group>"; };
-		CD14BD071A87A10D005E2A59 /* NVBaseSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVBaseSingleton.h; sourceTree = "<group>"; };
-		CD14BD081A87A10D005E2A59 /* NVBaseSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVBaseSingleton.m; sourceTree = "<group>"; };
 		CD14BD0B1A87A15E005E2A59 /* ChildSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildSingleton.h; sourceTree = "<group>"; };
 		CD14BD0C1A87A15E005E2A59 /* ChildSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildSingleton.m; sourceTree = "<group>"; };
+		CD14BD171A87A73A005E2A59 /* NVBaseSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVBaseSingleton.h; sourceTree = "<group>"; };
+		CD14BD181A87A73A005E2A59 /* NVBaseSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVBaseSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,16 +124,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CD14BD061A87A10D005E2A59 /* NVBaseSingleton */ = {
-			isa = PBXGroup;
-			children = (
-				CD14BD071A87A10D005E2A59 /* NVBaseSingleton.h */,
-				CD14BD081A87A10D005E2A59 /* NVBaseSingleton.m */,
-			);
-			name = NVBaseSingleton;
-			path = ../../../NVBaseSingleton;
-			sourceTree = "<group>";
-		};
 		CD14BD0A1A87A125005E2A59 /* ChildSingleton */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,9 +163,19 @@
 		CD14BD111A87A5BF005E2A59 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				CD14BD061A87A10D005E2A59 /* NVBaseSingleton */,
+				CD14BD161A87A73A005E2A59 /* NVBaseSingleton */,
 			);
 			name = Libs;
+			sourceTree = "<group>";
+		};
+		CD14BD161A87A73A005E2A59 /* NVBaseSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				CD14BD171A87A73A005E2A59 /* NVBaseSingleton.h */,
+				CD14BD181A87A73A005E2A59 /* NVBaseSingleton.m */,
+			);
+			name = NVBaseSingleton;
+			path = ../../NVBaseSingleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD14BCE91A87A0B2005E2A59 /* ViewController.m in Sources */,
+				CD14BD191A87A73A005E2A59 /* NVBaseSingleton.m in Sources */,
 				CD14BD0D1A87A15E005E2A59 /* ChildSingleton.m in Sources */,
 				CD14BCE61A87A0B2005E2A59 /* AppDelegate.m in Sources */,
-				CD14BD091A87A10D005E2A59 /* NVBaseSingleton.m in Sources */,
 				CD14BCE31A87A0B2005E2A59 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +475,7 @@
 				CD14BD021A87A0B2005E2A59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD14BD031A87A0B2005E2A59 /* Build configuration list for PBXNativeTarget "NVBaseSingletonTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				CD14BD051A87A0B2005E2A59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
