@@ -1,7 +1,7 @@
 # NVBaseSingleton
 Base singleton for simple implementation
 
-usage
+**usage**
 
 .h file:
 ```objc
