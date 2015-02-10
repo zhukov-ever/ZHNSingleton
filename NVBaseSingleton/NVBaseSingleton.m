@@ -23,7 +23,8 @@ static NSMutableDictionary* m_dictInstances;
         _instance = [m_dictInstances objectForKey:_className];
         if (!_instance)
         {
-            _instance = [NSClassFromString(_className) new];
+            [theClass class];
+            _instance = [theClass new];
             [m_dictInstances setObject:_instance forKey:_className];
         }
     }
