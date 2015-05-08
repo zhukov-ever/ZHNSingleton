@@ -1,4 +1,4 @@
-# NVBaseSingleton
+# ZHNBaseSingleton
 Singleton with simple implementation. 
 Work with numerous child classes.
 
@@ -6,7 +6,7 @@ Work with numerous child classes.
 
 .h file:
 ```objc
-@interface ChildSingleton : NVBaseSingleton
+@interface ChildSingleton : ZHNBaseSingleton
 
 @end
 ```
