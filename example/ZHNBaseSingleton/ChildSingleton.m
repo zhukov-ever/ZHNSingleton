@@ -1,9 +1,9 @@
 //
 //  ChildSingleton.m
-//  NVBaseSingleton
+//  ZHNBaseSingleton
 //
-//  Created by Zhn on 8/02/2015.
-//  Copyright (c) 2015 Zhn. All rights reserved.
+//  Created by vi on 8/05/2015.
+//  Copyright (c) 2015 home. All rights reserved.
 //
 
 #import "ChildSingleton.h"

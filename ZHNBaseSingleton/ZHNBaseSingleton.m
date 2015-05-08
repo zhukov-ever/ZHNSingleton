@@ -1,17 +1,17 @@
 //
-//  NVBaseSingleton.m
-//  Capsula
+//  ZHNBaseSingleton.m
+//  ZHNBaseSingleton
 //
-//  Created by Nikita on 24/12/14.
-//  Copyright (c) 2014 Zhn. All rights reserved.
+//  Created by vi on 8/05/2015.
+//  Copyright (c) 2015 home. All rights reserved.
 //
 
-#import "NVBaseSingleton.h"
+#import "ZHNBaseSingleton.h"
 
-@implementation NVBaseSingleton
+@implementation ZHNBaseSingleton
 
 static NSMutableDictionary* m_dictInstances;
-+(id)sharedWithClass:(Class)theClass;
++(instancetype)sharedWithClass:(Class)theClass;
 {
     
     NSString* _className = NSStringFromClass(theClass);
@@ -36,6 +36,5 @@ static NSMutableDictionary* m_dictInstances;
     NSAssert(false, @"%s must be inherited!", __PRETTY_FUNCTION__);
     return nil;
 }
-
 
 @end
