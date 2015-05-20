@@ -33,7 +33,7 @@ static NSMutableDictionary* m_dictInstances;
 
 +(instancetype)shared
 {
-    NSAssert(false, @"%s must be inherited!", __PRETTY_FUNCTION__);
+    NSAssert(false, @"%s must be overridden!", __PRETTY_FUNCTION__);
     return nil;
 }
 
