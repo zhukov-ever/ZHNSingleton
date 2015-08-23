@@ -11,5 +11,6 @@
 @interface ChildSingleton : ZHNBaseSingleton
 
 @property (nonatomic, readonly) NSString* stringWithAwesomeString;
+- (void) increaseAwesomeCounter;
 
 @end

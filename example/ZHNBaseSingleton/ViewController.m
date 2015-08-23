@@ -17,8 +17,21 @@
 
 @implementation ViewController
 
+- (void)dealloc
+{
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.labelForAwesomeString.text = [ChildSingleton shared].stringWithAwesomeString;
+}
+
 - (IBAction)awesomeHandler:(id)sender
 {
+    [[ChildSingleton shared] increaseAwesomeCounter];
     self.labelForAwesomeString.text = [ChildSingleton shared].stringWithAwesomeString;
 }
 

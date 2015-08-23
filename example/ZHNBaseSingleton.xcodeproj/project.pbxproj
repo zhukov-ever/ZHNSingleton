@@ -97,7 +97,8 @@
 		14DC81C81AFCA42F00DC96DA /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				14DC81CF1AFCA4C600DC96DA /* ChildSingleton */,
+				14DC81D31AFCA50400DC96DA /* ChildSingleton.h */,
+				14DC81D41AFCA50400DC96DA /* ChildSingleton.m */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -126,15 +127,6 @@
 				14DC81CD1AFCA47D00DC96DA /* ZHNBaseSingleton.m */,
 			);
 			name = ZHNBaseSingleton;
-			sourceTree = "<group>";
-		};
-		14DC81CF1AFCA4C600DC96DA /* ChildSingleton */ = {
-			isa = PBXGroup;
-			children = (
-				14DC81D31AFCA50400DC96DA /* ChildSingleton.h */,
-				14DC81D41AFCA50400DC96DA /* ChildSingleton.m */,
-			);
-			name = ChildSingleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

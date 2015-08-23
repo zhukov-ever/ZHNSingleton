@@ -29,7 +29,12 @@
 
 - (NSString *)stringWithAwesomeString
 {
-    return [NSString stringWithFormat:@"awesome #%@", @(++m_count)];
+    return [NSString stringWithFormat:@"awesome #%@", @(m_count)];
+}
+
+- (void) increaseAwesomeCounter
+{
+    m_count++;
 }
 
 @end
