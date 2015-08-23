@@ -2,7 +2,14 @@
 Singleton with simple implementation. 
 Work with numerous child classes.
 
-**usage**
+### Podfile
+
+```ruby
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+```
+
+### Usage
 
 .h file:
 ```objc
