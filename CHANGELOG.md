@@ -1,3 +1,6 @@
+## 0.0.3 (2015-08-23)
+- just increase version everywhere
+
 ## 0.0.2 (2015-08-23)
 
 ##### Enhancements

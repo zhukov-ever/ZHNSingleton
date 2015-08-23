@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = "ZHNBaseSingleton"
-  s.version                   = "0.0.2"
+  s.version                   = "0.0.3"
   s.summary                   = "Singleton with one line implementation."
   s.homepage                  = "https://github.com/zhukov-ever/ZHNBaseSingleton"
   s.license                   = { :type => "MIT", :file => "LICENSE" }
