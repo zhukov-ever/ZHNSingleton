@@ -31,5 +31,5 @@ pod "ZHNBaseSingleton"
 
 ### 3. Get your instance with shared method
 ```objc
-    NSLog(@"%@", [ChildSingleton shared]);
+NSLog(@"%@", [ChildSingleton shared]);
 ```
