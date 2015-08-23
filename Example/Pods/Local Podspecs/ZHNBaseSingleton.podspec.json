@@ -1,7 +1,7 @@
 {
   "name": "ZHNBaseSingleton",
-  "version": "0.0.1",
-  "summary": "Singleton with simple implementation. Work with numerous child classes.",
+  "version": "0.0.2",
+  "summary": "Singleton with one line implementation.",
   "homepage": "https://github.com/zhukov-ever/ZHNBaseSingleton",
   "license": {
     "type": "MIT",
@@ -15,7 +15,7 @@
   },
   "source": {
     "git": "https://github.com/zhukov-ever/ZHNBaseSingleton.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "source_files": [
     "Classes",
