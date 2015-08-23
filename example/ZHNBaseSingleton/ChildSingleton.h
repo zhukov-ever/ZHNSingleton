@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 home. All rights reserved.
 //
 
-#import "ZHNBaseSingleton.h"
+#import <ZHNBaseSingleton/ZHNBaseSingleton.h>
 
 @interface ChildSingleton : ZHNBaseSingleton
 
