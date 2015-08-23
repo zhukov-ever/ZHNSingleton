@@ -1,16 +1,16 @@
 # ZHNBaseSingleton
-Singleton with simple implementation. 
-Work with numerous child classes.
+Singleton with one line implementation. 
 
-### Podfile
+# Podfile
 
 ```ruby
 platform :ios, '7.0'
 pod "ZHNBaseSingleton"
 ```
 
-### Usage
+## Usage
 
+### 1. Inherit your class from ZHNBaseSingleton:
 .h file:
 ```objc
 @interface ChildSingleton : ZHNBaseSingleton
@@ -18,6 +18,7 @@ pod "ZHNBaseSingleton"
 @end
 ```
 
+### 2. Override shared function:
 .m file:
 ```objc
 @implementation ChildSingleton
@@ -26,4 +27,9 @@ pod "ZHNBaseSingleton"
     return [ChildSingleton sharedWithClass:[ChildSingleton class]];
 }
 @end
+```
+
+### 3. Get your instance with '''shared''' method
+```objc
+    NSLog(@"%@", [ChildSingleton shared]);
 ```
