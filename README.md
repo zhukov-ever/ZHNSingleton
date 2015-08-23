@@ -24,12 +24,17 @@ pod "ZHNBaseSingleton"
 @implementation ChildSingleton
 + (instancetype)shared
 {
-    return [ChildSingleton sharedWithClass:[ChildSingleton class]];
+    return [ChildSingleton sharedByClass:[ChildSingleton class]];
 }
 @end
 ```
 
-### 3. Get your instance with shared method
+### 3. Get your instance with shared method:
 ```objc
 NSLog(@"%@", [ChildSingleton shared]);
+```
+
+### 4. Destroy singleton if needed:
+```objc
+[[ChildSingleton shared] destroy];
 ```
