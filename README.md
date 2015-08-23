@@ -29,7 +29,7 @@ pod "ZHNBaseSingleton"
 @end
 ```
 
-### 3. Get your instance with '''shared''' method
+### 3. Get your instance with *shared* method
 ```objc
     NSLog(@"%@", [ChildSingleton shared]);
 ```
