@@ -15,7 +15,7 @@
 
 + (instancetype)shared
 {
-    return [ChildSingleton sharedWithClass:[ChildSingleton class]];
+    return [ChildSingleton sharedByClass:[ChildSingleton class]];
 }
 
 - (instancetype)init
@@ -32,7 +32,7 @@
     return [NSString stringWithFormat:@"awesome #%@", @(m_count)];
 }
 
-- (void) increaseAwesomeCounter
+- (void)increaseAwesomeCounter
 {
     m_count++;
 }

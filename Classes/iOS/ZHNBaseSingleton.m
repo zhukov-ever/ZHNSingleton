@@ -10,29 +10,63 @@
 
 @implementation ZHNBaseSingleton
 
+#ifdef DEBUG
+- (void)dealloc
+{
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+#endif
+
 static NSMutableDictionary* m_dictInstances;
-+(instancetype)sharedWithClass:(Class)theClass;
++ (NSMutableDictionary*)dictInstances
+{
+    if (!m_dictInstances)
+        m_dictInstances = [NSMutableDictionary new];
+    return m_dictInstances;
+}
+
++ (instancetype)shared
+{
+    NSAssert(false, @"%s must be overridden!", __PRETTY_FUNCTION__);
+    return nil;
+}
+
++ (instancetype)sharedByClass:(Class)theClass;
 {
     NSString* _className = NSStringFromClass(theClass);
     id _instance;
-    @synchronized(m_dictInstances)
+    
+    NSMutableDictionary* _dictInstances = [ZHNBaseSingleton dictInstances];
+    
+    @synchronized(_dictInstances)
     {
-        if (!m_dictInstances)
-            m_dictInstances = [NSMutableDictionary new];
-        _instance = [m_dictInstances objectForKey:_className];
+        _instance = [_dictInstances objectForKey:_className];
         if (!_instance)
         {
             _instance = [theClass new];
-            [m_dictInstances setObject:_instance forKey:_className];
+            [_dictInstances setObject:_instance forKey:_className];
         }
     }
     return _instance;
 }
 
-+(instancetype)shared
+- (void)destroy
 {
-    NSAssert(false, @"%s must be overridden!", __PRETTY_FUNCTION__);
-    return nil;
+    BOOL _didRemove = NO;
+    NSString* _className = NSStringFromClass([self class]);
+    
+    NSMutableDictionary* _dictInstances = [ZHNBaseSingleton dictInstances];
+    
+    @synchronized(_dictInstances)
+    {
+        id _instance = [_dictInstances objectForKey:_className];
+        if (_instance)
+        {
+            _didRemove = YES;
+            [_dictInstances removeObjectForKey:_className];
+            _instance = nil;
+        }
+    }
 }
 
 @end

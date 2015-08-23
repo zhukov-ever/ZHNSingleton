@@ -30,10 +30,16 @@
     self.labelForAwesomeString.text = [ChildSingleton shared].stringWithAwesomeString;
 }
 
-- (IBAction)awesomeHandler:(id)sender
+- (IBAction)increaseHandler:(id)sender
 {
     [[ChildSingleton shared] increaseAwesomeCounter];
     self.labelForAwesomeString.text = [ChildSingleton shared].stringWithAwesomeString;
 }
+
+- (IBAction)destroyHandler:(id)sender
+{
+    [[ChildSingleton shared] destroy];
+}
+
 
 @end

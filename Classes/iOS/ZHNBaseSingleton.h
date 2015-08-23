@@ -10,7 +10,13 @@
 
 @interface ZHNBaseSingleton : NSObject
 
-+(instancetype)sharedWithClass:(Class)theClass;
-+(instancetype)shared;
++ (instancetype)sharedByClass:(Class)theClass;
++ (instancetype)shared;
+
+/**
+ Remove shared instance from list of instances.
+ Note, that if you have strong reference to the singleton, instance will not be deallocated.
+ */
+- (void)destroy;
 
 @end

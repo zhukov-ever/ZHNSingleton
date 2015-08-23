@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="bUw-zM-VOT">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -36,17 +37,32 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="awesomeHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="skv-dJ-Nfq"/>
+                                    <action selector="increaseHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W58-y6-2U5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBl-5X-VWG">
+                                <rect key="frame" x="98" y="147" width="125" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="4pa-GX-dRE"/>
+                                    <constraint firstAttribute="height" constant="30" id="znt-lm-XSz"/>
+                                </constraints>
+                                <state key="normal" title="destroy singleton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="destroyHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W6E-ik-1w3"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="KBl-5X-VWG" firstAttribute="top" secondItem="vnB-Bz-nhd" secondAttribute="bottom" constant="8" id="54m-Op-R5Y"/>
                             <constraint firstItem="4d5-T5-fQg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="GBa-Dk-z8w"/>
                             <constraint firstAttribute="centerX" secondItem="vnB-Bz-nhd" secondAttribute="centerX" id="UuX-mV-Zq8"/>
                             <constraint firstItem="4d5-T5-fQg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XxL-OU-Mfc"/>
                             <constraint firstItem="4d5-T5-fQg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="bJb-G7-sjR"/>
                             <constraint firstItem="vnB-Bz-nhd" firstAttribute="top" secondItem="4d5-T5-fQg" secondAttribute="bottom" constant="8" id="tKR-fo-Uc5"/>
+                            <constraint firstAttribute="centerX" secondItem="KBl-5X-VWG" secondAttribute="centerX" id="xw5-K1-q0b"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Xek-aD-SD1">
