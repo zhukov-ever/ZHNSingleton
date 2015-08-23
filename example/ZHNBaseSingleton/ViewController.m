@@ -19,6 +19,7 @@
 
 - (void)dealloc
 {
+    NSLog(@"%@", [ChildSingleton shared]);
     NSLog(@"%s", __PRETTY_FUNCTION__);
 }
 

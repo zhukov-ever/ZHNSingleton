@@ -13,7 +13,6 @@
 static NSMutableDictionary* m_dictInstances;
 +(instancetype)sharedWithClass:(Class)theClass;
 {
-    
     NSString* _className = NSStringFromClass(theClass);
     id _instance;
     @synchronized(m_dictInstances)
