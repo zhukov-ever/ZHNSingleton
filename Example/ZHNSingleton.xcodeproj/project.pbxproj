@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14DC819E1AFCA3E600DC96DA /* ZHNBaseSingleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNBaseSingleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DC819E1AFCA3E600DC96DA /* ZHNSingleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNSingleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DC81A21AFCA3E600DC96DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14DC81A31AFCA3E600DC96DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14DC81A51AFCA3E600DC96DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		14DC81951AFCA3E600DC96DA = {
 			isa = PBXGroup;
 			children = (
-				14DC81A01AFCA3E600DC96DA /* ZHNBaseSingleton */,
+				14DC81A01AFCA3E600DC96DA /* ZHNSingleton */,
 				14DC819F1AFCA3E600DC96DA /* Products */,
 				BE75EAFE7E7B0774BFF5B34A /* Pods */,
 				18C6FD6857FAD036223979ED /* Frameworks */,
@@ -60,12 +60,12 @@
 		14DC819F1AFCA3E600DC96DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14DC819E1AFCA3E600DC96DA /* ZHNBaseSingleton.app */,
+				14DC819E1AFCA3E600DC96DA /* ZHNSingleton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14DC81A01AFCA3E600DC96DA /* ZHNBaseSingleton */ = {
+		14DC81A01AFCA3E600DC96DA /* ZHNSingleton */ = {
 			isa = PBXGroup;
 			children = (
 				14DC81C71AFCA41C00DC96DA /* Resources */,
@@ -73,7 +73,7 @@
 				14DC81C91AFCA43700DC96DA /* View */,
 				14DC81A11AFCA3E600DC96DA /* Supporting Files */,
 			);
-			path = ZHNBaseSingleton;
+			path = ZHNSingleton;
 			sourceTree = "<group>";
 		};
 		14DC81A11AFCA3E600DC96DA /* Supporting Files */ = {
@@ -135,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14DC819D1AFCA3E600DC96DA /* ZHNBaseSingleton */ = {
+		14DC819D1AFCA3E600DC96DA /* ZHNSingleton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14DC81C11AFCA3E600DC96DA /* Build configuration list for PBXNativeTarget "ZHNBaseSingleton" */;
+			buildConfigurationList = 14DC81C11AFCA3E600DC96DA /* Build configuration list for PBXNativeTarget "ZHNSingleton" */;
 			buildPhases = (
 				E50F3709FBF0A94D3ED20EE5 /* Check Pods Manifest.lock */,
 				14DC819A1AFCA3E600DC96DA /* Sources */,
@@ -149,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = ZHNBaseSingleton;
-			productName = ZHNBaseSingleton;
-			productReference = 14DC819E1AFCA3E600DC96DA /* ZHNBaseSingleton.app */;
+			name = ZHNSingleton;
+			productName = ZHNSingleton;
+			productReference = 14DC819E1AFCA3E600DC96DA /* ZHNSingleton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14DC81991AFCA3E600DC96DA /* Build configuration list for PBXProject "ZHNBaseSingleton" */;
+			buildConfigurationList = 14DC81991AFCA3E600DC96DA /* Build configuration list for PBXProject "ZHNSingleton" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14DC819D1AFCA3E600DC96DA /* ZHNBaseSingleton */,
+				14DC819D1AFCA3E600DC96DA /* ZHNSingleton */,
 			);
 		};
 /* End PBXProject section */
@@ -354,7 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = ZHNBaseSingleton/Info.plist;
+				INFOPLIST_FILE = ZHNSingleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -366,7 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = ZHNBaseSingleton/Info.plist;
+				INFOPLIST_FILE = ZHNSingleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -375,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14DC81991AFCA3E600DC96DA /* Build configuration list for PBXProject "ZHNBaseSingleton" */ = {
+		14DC81991AFCA3E600DC96DA /* Build configuration list for PBXProject "ZHNSingleton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14DC81BF1AFCA3E600DC96DA /* Debug */,
@@ -384,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14DC81C11AFCA3E600DC96DA /* Build configuration list for PBXNativeTarget "ZHNBaseSingleton" */ = {
+		14DC81C11AFCA3E600DC96DA /* Build configuration list for PBXNativeTarget "ZHNSingleton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14DC81C21AFCA3E600DC96DA /* Debug */,

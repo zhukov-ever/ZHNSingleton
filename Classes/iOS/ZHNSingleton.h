@@ -1,6 +1,6 @@
 //
-//  ZHNBaseSingleton.h
-//  ZHNBaseSingleton
+//  ZHNSingleton.h
+//  ZHNSingleton
 //
 //  Created by zhukovever on 8/05/2015.
 //  Copyright (c) 2015 home. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ZHNBaseSingleton : NSObject
+@interface ZHNSingleton : NSObject
 
 + (instancetype)sharedByClass:(Class)theClass;
 + (instancetype)shared;

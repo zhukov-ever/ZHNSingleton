@@ -7,115 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15D2C05551C93A0FE96099D3D2638F7B /* ZHNBaseSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 07507498653B5EFA36E8A7305F8A03FC /* ZHNBaseSingleton.m */; };
-		1F2032160AE3FE310EE124B0BD45EA67 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AE78B8C608C9835E2E3CE5DCA013B9 /* Pods-dummy.m */; };
-		5BC3F68731C0EC6DAC8C77A0448E05B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BBF62FD698D75339F041AB921703C6 /* Foundation.framework */; };
-		B9993C3FB2C63A906C47CB2142C511C4 /* ZHNBaseSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D3F1113FC8D15A6341E670B20B8C4E /* ZHNBaseSingleton.h */; };
-		D0F234676E684CBC085C5D1838522AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BBF62FD698D75339F041AB921703C6 /* Foundation.framework */; };
-		E132C9AE3B3F7C0E6FF8E26D09ABF358 /* ZHNBaseSingleton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC49C28CE1DA5424E788DA08E27117E7 /* ZHNBaseSingleton-dummy.m */; };
+		2821E677CACDF8AC9A96204F2BD37B20 /* ZHNSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E653BEA172316EA08D3394BC69AF2 /* ZHNSingleton.m */; };
+		51DC9B0A5D25AC94C012947445B8F173 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909F013B8E175EFD75017A321A0EAEA8 /* Foundation.framework */; };
+		57A50728FFDCD9620FBE54E1E0DC487D /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F666D1A400542F71898B54F035F42B2 /* Pods-dummy.m */; };
+		605CB343660153080FAEEB6C2918C402 /* ZHNSingleton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC46CF1C4BFEAF578B68C7BA861B8A9 /* ZHNSingleton-dummy.m */; };
+		A5A8204DAF8AE3BCD1A5FFFF4D75B6B0 /* ZHNSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0911F7DB739D3B3D999EDDEF7D7207 /* ZHNSingleton.h */; };
+		CD42132EC935B9A2F305D1A16BA207CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909F013B8E175EFD75017A321A0EAEA8 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		50964177D5C990971CB5A487B6202351 /* PBXContainerItemProxy */ = {
+		7B4673151600698F4C251FCE02DDF380 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5F677C41207223173155576FED64DFE0;
-			remoteInfo = ZHNBaseSingleton;
+			remoteGlobalIDString = 72CBB5F093AE494DA23C734B7EC4F026;
+			remoteInfo = ZHNSingleton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07507498653B5EFA36E8A7305F8A03FC /* ZHNBaseSingleton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZHNBaseSingleton.m; sourceTree = "<group>"; };
 		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		204DE4EF8A10DFCCD937808C13282775 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		2BAAA381E29170DD0B04EEDAD15389DB /* libZHNBaseSingleton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZHNBaseSingleton.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FAFA97F498FC53D305F3225F864E675 /* ZHNBaseSingleton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ZHNBaseSingleton-Private.xcconfig"; sourceTree = "<group>"; };
+		2F666D1A400542F71898B54F035F42B2 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		3823DDFCD786A1A0E3E270FC4426068D /* ZHNSingleton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHNSingleton-prefix.pch"; sourceTree = "<group>"; };
+		3BC46CF1C4BFEAF578B68C7BA861B8A9 /* ZHNSingleton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHNSingleton-dummy.m"; sourceTree = "<group>"; };
+		569F742B4125D1C1FBD418F3ABE795EF /* ZHNSingleton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHNSingleton.xcconfig; sourceTree = "<group>"; };
 		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		68AE78B8C608C9835E2E3CE5DCA013B9 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		6BE759EC2F93FD91F138F97105CD4120 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		8E7567B151081C7BD1983DDBC9F65BDB /* ZHNBaseSingleton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHNBaseSingleton-prefix.pch"; sourceTree = "<group>"; };
-		A67D635B78666A8D2BE92076DF962673 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8202852A44B6FA20710C47808F11A4D /* ZHNBaseSingleton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHNBaseSingleton.xcconfig; sourceTree = "<group>"; };
+		70574A6DF94F8CBC9468E80E5901A482 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		8FF8C49678692D8C613AA59C774898BE /* ZHNSingleton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ZHNSingleton-Private.xcconfig"; sourceTree = "<group>"; };
+		909F013B8E175EFD75017A321A0EAEA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		D1D3F1113FC8D15A6341E670B20B8C4E /* ZHNBaseSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZHNBaseSingleton.h; sourceTree = "<group>"; };
-		DC49C28CE1DA5424E788DA08E27117E7 /* ZHNBaseSingleton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHNBaseSingleton-dummy.m"; sourceTree = "<group>"; };
-		F3BBF62FD698D75339F041AB921703C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CA58FB8C8AA50F6B0C11BB34D8A06B53 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		CAAA89879482F18685066C20DFCBD6E6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD56E89BAAAACF998AD82E3D50ED201F /* libZHNSingleton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZHNSingleton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9E653BEA172316EA08D3394BC69AF2 /* ZHNSingleton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZHNSingleton.m; sourceTree = "<group>"; };
+		DA0911F7DB739D3B3D999EDDEF7D7207 /* ZHNSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZHNSingleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A1670BFCF9EE80654D9DA0A467D24851 /* Frameworks */ = {
+		AC785E4077264924AAB655E0AA8FB318 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BC3F68731C0EC6DAC8C77A0448E05B2 /* Foundation.framework in Frameworks */,
+				51DC9B0A5D25AC94C012947445B8F173 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E13648F47C03A08325C783D2A920DA65 /* Frameworks */ = {
+		ED6B5C1238903A16B031BD707F395F0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F234676E684CBC085C5D1838522AE4 /* Foundation.framework in Frameworks */,
+				CD42132EC935B9A2F305D1A16BA207CA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37C8E1EFB1BF3F6D0F3A312AC6B2ADC0 /* ZHNBaseSingleton */ = {
-			isa = PBXGroup;
-			children = (
-				45770A8F402237955DF73A1DC9ED8433 /* Classes */,
-				4057EAAD08CED4F76C1ABBA9C38E25C5 /* Support Files */,
-			);
-			name = ZHNBaseSingleton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4057EAAD08CED4F76C1ABBA9C38E25C5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8202852A44B6FA20710C47808F11A4D /* ZHNBaseSingleton.xcconfig */,
-				2FAFA97F498FC53D305F3225F864E675 /* ZHNBaseSingleton-Private.xcconfig */,
-				DC49C28CE1DA5424E788DA08E27117E7 /* ZHNBaseSingleton-dummy.m */,
-				8E7567B151081C7BD1983DDBC9F65BDB /* ZHNBaseSingleton-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZHNBaseSingleton";
-			sourceTree = "<group>";
-		};
-		44CA346845D31E1EF01C4EC7905DEE53 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D1D3F1113FC8D15A6341E670B20B8C4E /* ZHNBaseSingleton.h */,
-				07507498653B5EFA36E8A7305F8A03FC /* ZHNBaseSingleton.m */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		45770A8F402237955DF73A1DC9ED8433 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				44CA346845D31E1EF01C4EC7905DEE53 /* iOS */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F3BBF62FD698D75339F041AB921703C6 /* Foundation.framework */,
+				909F013B8E175EFD75017A321A0EAEA8 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		57B1C0187D107AB51E0BA1D3E525261C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				569F742B4125D1C1FBD418F3ABE795EF /* ZHNSingleton.xcconfig */,
+				8FF8C49678692D8C613AA59C774898BE /* ZHNSingleton-Private.xcconfig */,
+				3BC46CF1C4BFEAF578B68C7BA861B8A9 /* ZHNSingleton-dummy.m */,
+				3823DDFCD786A1A0E3E270FC4426068D /* ZHNSingleton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZHNSingleton";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				A1C7CE28456F24EF11D8520FD5A91ED7 /* Development Pods */,
+				AC571A165A8FE62332258ADD1EAE5366 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
@@ -127,19 +100,19 @@
 			children = (
 				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
 				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
-				68AE78B8C608C9835E2E3CE5DCA013B9 /* Pods-dummy.m */,
+				2F666D1A400542F71898B54F035F42B2 /* Pods-dummy.m */,
 				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
-				6BE759EC2F93FD91F138F97105CD4120 /* Pods.debug.xcconfig */,
-				204DE4EF8A10DFCCD937808C13282775 /* Pods.release.xcconfig */,
+				70574A6DF94F8CBC9468E80E5901A482 /* Pods.debug.xcconfig */,
+				CA58FB8C8AA50F6B0C11BB34D8A06B53 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		A1C7CE28456F24EF11D8520FD5A91ED7 /* Development Pods */ = {
+		AC571A165A8FE62332258ADD1EAE5366 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				37C8E1EFB1BF3F6D0F3A312AC6B2ADC0 /* ZHNBaseSingleton */,
+				C2802D3B8080DC6F48682C3F98CB865A /* ZHNSingleton */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -152,11 +125,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C2802D3B8080DC6F48682C3F98CB865A /* ZHNSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9E903D7BDFDA2CF1F0A338D77A907 /* Classes */,
+				57B1C0187D107AB51E0BA1D3E525261C /* Support Files */,
+			);
+			name = ZHNSingleton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A67D635B78666A8D2BE92076DF962673 /* libPods.a */,
-				2BAAA381E29170DD0B04EEDAD15389DB /* libZHNBaseSingleton.a */,
+				CAAA89879482F18685066C20DFCBD6E6 /* libPods.a */,
+				CD56E89BAAAACF998AD82E3D50ED201F /* libZHNSingleton.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,52 +152,69 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		D35E6ABAFE6A690F5F39318CDC3F8233 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DA0911F7DB739D3B3D999EDDEF7D7207 /* ZHNSingleton.h */,
+				CE9E653BEA172316EA08D3394BC69AF2 /* ZHNSingleton.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E2D9E903D7BDFDA2CF1F0A338D77A907 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D35E6ABAFE6A690F5F39318CDC3F8233 /* iOS */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28A1BDA318EDB16FEDE9EA4EA81823CD /* Headers */ = {
+		F5F79F9066D89BB255497B1A263F0C03 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9993C3FB2C63A906C47CB2142C511C4 /* ZHNBaseSingleton.h in Headers */,
+				A5A8204DAF8AE3BCD1A5FFFF4D75B6B0 /* ZHNSingleton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5F677C41207223173155576FED64DFE0 /* ZHNBaseSingleton */ = {
+		3FEE818147A3FAC1A336A200D8232811 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9045BFFC0A5B0B61F9409465D080720E /* Build configuration list for PBXNativeTarget "ZHNBaseSingleton" */;
+			buildConfigurationList = DDA3DC1A626778CF690CFF5E1A0F9EE6 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				BC8552F49FE4AE636F6207BBAD1D9C5F /* Sources */,
-				A1670BFCF9EE80654D9DA0A467D24851 /* Frameworks */,
-				28A1BDA318EDB16FEDE9EA4EA81823CD /* Headers */,
+				1748BC7A5B9BD92BED75E797C37E1C17 /* Sources */,
+				AC785E4077264924AAB655E0AA8FB318 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = ZHNBaseSingleton;
-			productName = ZHNBaseSingleton;
-			productReference = 2BAAA381E29170DD0B04EEDAD15389DB /* libZHNBaseSingleton.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		ADAC02A39FA9C9D07BA22CA1157DA237 /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C25BA8B596E3396AF35E3EF983753456 /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				9121034E566F4EA190C1EA5EE61681FB /* Sources */,
-				E13648F47C03A08325C783D2A920DA65 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC03BAA5E40728653724CB385685663B /* PBXTargetDependency */,
+				3E9DE235D241F1009D23522CBB4665D5 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = A67D635B78666A8D2BE92076DF962673 /* libPods.a */;
+			productReference = CAAA89879482F18685066C20DFCBD6E6 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		72CBB5F093AE494DA23C734B7EC4F026 /* ZHNSingleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C7B0615724DA7ED04290461AD2E36E3 /* Build configuration list for PBXNativeTarget "ZHNSingleton" */;
+			buildPhases = (
+				03AC183DE56B0FECD7A9E728CC9AF855 /* Sources */,
+				ED6B5C1238903A16B031BD707F395F0B /* Frameworks */,
+				F5F79F9066D89BB255497B1A263F0C03 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHNSingleton;
+			productName = ZHNSingleton;
+			productReference = CD56E89BAAAACF998AD82E3D50ED201F /* libZHNSingleton.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -238,38 +238,38 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADAC02A39FA9C9D07BA22CA1157DA237 /* Pods */,
-				5F677C41207223173155576FED64DFE0 /* ZHNBaseSingleton */,
+				3FEE818147A3FAC1A336A200D8232811 /* Pods */,
+				72CBB5F093AE494DA23C734B7EC4F026 /* ZHNSingleton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9121034E566F4EA190C1EA5EE61681FB /* Sources */ = {
+		03AC183DE56B0FECD7A9E728CC9AF855 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F2032160AE3FE310EE124B0BD45EA67 /* Pods-dummy.m in Sources */,
+				605CB343660153080FAEEB6C2918C402 /* ZHNSingleton-dummy.m in Sources */,
+				2821E677CACDF8AC9A96204F2BD37B20 /* ZHNSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC8552F49FE4AE636F6207BBAD1D9C5F /* Sources */ = {
+		1748BC7A5B9BD92BED75E797C37E1C17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E132C9AE3B3F7C0E6FF8E26D09ABF358 /* ZHNBaseSingleton-dummy.m in Sources */,
-				15D2C05551C93A0FE96099D3D2638F7B /* ZHNBaseSingleton.m in Sources */,
+				57A50728FFDCD9620FBE54E1E0DC487D /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EC03BAA5E40728653724CB385685663B /* PBXTargetDependency */ = {
+		3E9DE235D241F1009D23522CBB4665D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ZHNBaseSingleton;
-			target = 5F677C41207223173155576FED64DFE0 /* ZHNBaseSingleton */;
-			targetProxy = 50964177D5C990971CB5A487B6202351 /* PBXContainerItemProxy */;
+			name = ZHNSingleton;
+			target = 72CBB5F093AE494DA23C734B7EC4F026 /* ZHNSingleton */;
+			targetProxy = 7B4673151600698F4C251FCE02DDF380 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -308,12 +308,28 @@
 			};
 			name = Release;
 		};
-		1809DF0F57A930A25E17BDE3A556D0E9 /* Release */ = {
+		2A521A5A371B26F36A94C92DAAB641C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FAFA97F498FC53D305F3225F864E675 /* ZHNBaseSingleton-Private.xcconfig */;
+			baseConfigurationReference = 70574A6DF94F8CBC9468E80E5901A482 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ZHNBaseSingleton/ZHNBaseSingleton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		55F1D781E7C9A287BEECF78F93260A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF8C49678692D8C613AA59C774898BE /* ZHNSingleton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZHNSingleton/ZHNSingleton-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -363,25 +379,9 @@
 			};
 			name = Debug;
 		};
-		C1343FCB9DEEAB4D049C32873C6955AE /* Debug */ = {
+		C88A2DE5E7A5C81C75F2CF0275E092EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FAFA97F498FC53D305F3225F864E675 /* ZHNBaseSingleton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ZHNBaseSingleton/ZHNBaseSingleton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		F6900D1CE0AE5792A69A0C8E5F7109FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 204DE4EF8A10DFCCD937808C13282775 /* Pods.release.xcconfig */;
+			baseConfigurationReference = CA58FB8C8AA50F6B0C11BB34D8A06B53 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -395,16 +395,16 @@
 			};
 			name = Release;
 		};
-		FF5078AED144246CF4E40D7860C2F34D /* Debug */ = {
+		E6DDD2A11775AF0FCD0D6943175172E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BE759EC2F93FD91F138F97105CD4120 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 8FF8C49678692D8C613AA59C774898BE /* ZHNSingleton-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZHNSingleton/ZHNSingleton-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -423,20 +423,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9045BFFC0A5B0B61F9409465D080720E /* Build configuration list for PBXNativeTarget "ZHNBaseSingleton" */ = {
+		5C7B0615724DA7ED04290461AD2E36E3 /* Build configuration list for PBXNativeTarget "ZHNSingleton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1343FCB9DEEAB4D049C32873C6955AE /* Debug */,
-				1809DF0F57A930A25E17BDE3A556D0E9 /* Release */,
+				E6DDD2A11775AF0FCD0D6943175172E2 /* Debug */,
+				55F1D781E7C9A287BEECF78F93260A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C25BA8B596E3396AF35E3EF983753456 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		DDA3DC1A626778CF690CFF5E1A0F9EE6 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF5078AED144246CF4E40D7860C2F34D /* Debug */,
-				F6900D1CE0AE5792A69A0C8E5F7109FF /* Release */,
+				2A521A5A371B26F36A94C92DAAB641C3 /* Debug */,
+				C88A2DE5E7A5C81C75F2CF0275E092EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,14 +1,14 @@
 //
-//  ZHNBaseSingleton.m
-//  ZHNBaseSingleton
+//  ZHNSingleton.m
+//  ZHNSingleton
 //
 //  Created by zhukovever on 8/05/2015.
 //  Copyright (c) 2015 home. All rights reserved.
 //
 
-#import "ZHNBaseSingleton.h"
+#import "ZHNSingleton.h"
 
-@implementation ZHNBaseSingleton
+@implementation ZHNSingleton
 
 #ifdef DEBUG
 - (void)dealloc
@@ -36,7 +36,7 @@ static NSMutableDictionary* m_dictInstances;
     NSString* _className = NSStringFromClass(theClass);
     id _instance;
     
-    NSMutableDictionary* _dictInstances = [ZHNBaseSingleton dictInstances];
+    NSMutableDictionary* _dictInstances = [ZHNSingleton dictInstances];
     
     @synchronized(_dictInstances)
     {
@@ -55,7 +55,7 @@ static NSMutableDictionary* m_dictInstances;
     BOOL _didRemove = NO;
     NSString* _className = NSStringFromClass([self class]);
     
-    NSMutableDictionary* _dictInstances = [ZHNBaseSingleton dictInstances];
+    NSMutableDictionary* _dictInstances = [ZHNSingleton dictInstances];
     
     @synchronized(_dictInstances)
     {

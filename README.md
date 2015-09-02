@@ -1,19 +1,19 @@
-# ZHNBaseSingleton
+# ZHNSingleton
 Singleton with one line implementation. 
 
 ## Podfile
 
 ```ruby
 platform :ios, '7.0'
-pod "ZHNBaseSingleton"
+pod "ZHNSingleton"
 ```
 
 ## Usage
 
-### 1. Inherit your class from ZHNBaseSingleton:
+### 1. Inherit your class from ZHNSingleton:
 .h file:
 ```objc
-@interface ChildSingleton : ZHNBaseSingleton
+@interface ChildSingleton : ZHNSingleton
 
 @end
 ```

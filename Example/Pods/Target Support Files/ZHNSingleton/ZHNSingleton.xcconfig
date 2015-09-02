@@ -1,0 +1,1 @@
+ZHNSINGLETON_OTHER_LDFLAGS = -framework "Foundation"
