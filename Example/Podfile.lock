@@ -1,5 +1,5 @@
 PODS:
-  - ZHNSingleton (0.0.4)
+  - ZHNSingleton (0.1.0)
 
 DEPENDENCIES:
   - ZHNSingleton (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ZHNSingleton: 67b7001d5ffc7c747275b544b91245bd6ef64e74
+  ZHNSingleton: 5554e396048047d45f290683687210e9e49b1d45
 
 COCOAPODS: 0.38.2

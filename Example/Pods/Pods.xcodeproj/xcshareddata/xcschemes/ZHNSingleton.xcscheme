@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "920033A8A4B59931542B04C4"
+               BlueprintIdentifier = "7E4C93ADB929830D96B15AD6"
                BuildableName = "libZHNSingleton.a"
                BlueprintName = "ZHNSingleton"
                ReferencedContainer = "container:Pods.xcodeproj">
